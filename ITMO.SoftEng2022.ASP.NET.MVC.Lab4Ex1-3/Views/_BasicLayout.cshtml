@@ -1,0 +1,16 @@
+﻿@{
+    Page.Title = "Title goes here";
+    //Layout = "Your Layout Page goes here";
+}
+<title>@ViewBag.Title</title>
+<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+<div>
+    <body>
+        <h1>ОАО "Добро пожаловать"</h1>
+        <div>
+            @RenderBody()
+        </div>
+    </body>
+
+</div>
