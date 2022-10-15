@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Добавить студента";
+}
+
+<h3>Добавить нового студента</h3>
+<form method="post" action="">
+    <table>
+        <tr>
+            <td><p>Введите фамилию</p></td>
+            <td>
+                <input type="text"
+                       name="LastName" />
+            </td>
+        </tr>
+        <tr>
+            <td><p>Введите имя</p></td>
+            <td>
+                <input type="text"
+                       name="FirstName" />
+            </td>
+        </tr>
+        <tr>
+            <td><p>Введите отчество</p></td>
+            <td>
+                <input type="text"
+                       name="Surname" />
+            </td>
+        </tr>
+        <tr>
+            <td><p>Введите баллы</p></td>
+            <td>
+                <input type="number" step="1" min="0" max="100"
+                       name="MiddleBall" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Отправить" />
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</form>
